@@ -1,0 +1,55 @@
+.main{
+    color: #2A9134;
+    text-align: center;
+    text-shadow: rgb(101, 242, 255) 1px 0 5px;
+    height: calc(100% - 100px);
+    position: relative;
+    z-index: 5;
+}
+.name{
+    font-size: 40px;
+    position: relative;
+    top:30px;
+    text-shadow: 0 0 ;
+}
+
+.profilepic{
+    margin: 0 auto 0 auto;
+
+}
+
+.contact-me div{
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    background-color: red;
+}
+
+.home{
+    position: absolute;
+    bottom: 10%;
+    right: 25%;
+}
+.blur-one{
+    width: 300px;
+    height: 300px;
+    background-color: #3405b6;
+    border-radius: 50%;
+    filter: blur(81.5px);
+    position: absolute;
+    top: -150px;
+    left: -125px;
+    z-index: -1;
+}
+
+.blur-two{
+    width: 150px;
+    height: 300px;
+    background-color: #3405b6;
+    border-radius: 10rem 0 0 10rem;
+    filter: blur(60px);
+    position: absolute;
+    top: 150px;
+    right: 0;
+    z-index: -1;
+}

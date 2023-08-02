@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 10;
+    position: relative;
+}
+
+.tittle{
+    display: flex;
+}
+
+.tittle p{
+    margin-right: 10px;
+}
+
+.navigation-list{
+    width:240px;
+    display: flex;
+    justify-content: space-between;
+}

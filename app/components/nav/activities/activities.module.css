@@ -1,0 +1,16 @@
+.main p{
+    transition-duration: 3s;
+    position: absolute;
+    top:35px;
+    opacity: 0;
+}
+
+.disappear{
+    transform: translateY(-50px);
+    opacity: 0 !important;
+}
+
+.moveup{
+    transform: translateY(-25px);
+    opacity: 1 !important;
+}
