@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-
+'client'
 import LandingContent from "./components/landing/index_body";
 import NavHere from "./components/nav/nav";
 

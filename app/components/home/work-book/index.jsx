@@ -4,7 +4,7 @@ import styles from './index.module.css'
 import Page from './page/page';
 
 function WorkBook(){
-    const [currentPage , setCurrentPage] = useState(1)
+    const [currentPage , setCurrentPage] = useState(0)
     const [bookOpen, setBookOpen] = useState(false)
     const [openBockStyle, setOpenBockStyle] = useState()
     useEffect(()=>{

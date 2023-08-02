@@ -43,7 +43,6 @@ let BackEnd = new SkillBox()
 BackEnd.AddImage("https://icon-library.com/images/java-icon-images/java-icon-images-6.jpg")
 BackEnd.AddImage("https://cdn-icons-png.flaticon.com/512/4248/4248443.png")
 BackEnd.AddImage("https://cdn-icons-png.flaticon.com/512/2164/2164832.png")
-
 BackEnd.AddImage("https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png")
 
 
@@ -51,6 +50,7 @@ BackEnd.AddText("Responsive Design")
 BackEnd.AddText("Cross - Browser Compatibility")
 BackEnd.AddText("Testing and Debugging")
 
+BackEnd.AddTools("https://cdn.cookielaw.org/logos/70564414-548a-4286-8ad7-04d95b172a08/e26443c0-68d1-47c8-b8fc-9bc765da2e95/3a159462-db70-43cf-a27d-f602a6baed44/pm-logo-horiz.png")
 BackEnd.SetBackgroundColor("red")
 
 BackEnd.SetTitle("Back-End")
