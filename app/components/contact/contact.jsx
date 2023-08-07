@@ -2,7 +2,7 @@
 import { useState } from "react";
 import styles from "./contact.module.css"
 
-function ContactButton() {
+function ContactButton(props) {
     const [seeConttact, setSeeConttact] = useState("none")
     const [opacity, setOpacity] = useState(0)
     // useEffect(()=>{},[seeConttact])
@@ -12,7 +12,7 @@ function ContactButton() {
     }
     return (
         <div>
-            <button onClick={() => (apearInformation() , setSeeConttact("flex"))} className={styles.button}> Contact</button>
+            <button onClick={() => (apearInformation() , setSeeConttact("flex"))} style={props.buttonStyle}> Contact</button>
 
             <div className={styles["contact-holder"]} style={{ transition:" 5s ease-in-out", display: seeConttact, opacity: opacity}}>
                 <div className={styles["background"]}></div>

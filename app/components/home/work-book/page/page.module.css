@@ -1,17 +1,32 @@
 .page{
     position: absolute;
+    transform-style: preserve-3d;
     height: 700px;
     width:500px;
     transform-origin: left;
-    background-color: red;
-    border: 1px solid black;
     transition: 800ms ease-in-out;
-    z-index: 1;
 }
 
 .next{
-    color:white;
+    color:black;
     position: absolute;
     bottom: 10px;
     right: 10px;
+}
+.sideone{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    color:white;
+    position: relative;
+    transform:translateZ(1px);
+}
+.sidetwo{
+    position: absolute;
+    top: 0px;
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100%;
+    background-color: red;
+
 }

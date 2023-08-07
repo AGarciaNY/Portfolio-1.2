@@ -17,7 +17,7 @@ function Nav(props) {
                     (<div className={styles["navigation-list"]}>
                         <Link href="/home">Home</Link>
                         <Link href="/art">Art</Link>
-                        <Link href="/Journey">Journey</Link>
+                        <Link href="/journey">Journey</Link>
                         <ContactButton />
                     </div>)
                     :

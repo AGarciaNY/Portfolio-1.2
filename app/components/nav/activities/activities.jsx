@@ -10,6 +10,7 @@ function Activities() {
         "a Software Engineer",
         "Available for work",
         "a Team Player",
+        "an Explorer"
     ].map((text, i) => {
         return <p key={"here" + i} className={currentIndex === i ? styles.disappear : nextIndex === i ? styles.moveup : styles.hide}>{text}</p>
     })

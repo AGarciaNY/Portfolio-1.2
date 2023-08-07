@@ -6,7 +6,7 @@ import NavHere from "./components/nav/nav";
 
 export default function Home() {
   return (
-    <main className="test">
+    <main className={styles.main}>
       <NavHere
         pageName="landing page"
         />
